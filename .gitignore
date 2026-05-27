@@ -1,0 +1,121 @@
+# ============================================================
+# .gitignore — QuantPath LLM Wiki (quantpath-llm-wiki)
+# Obsidian knowledge vault + GitHub repository
+# ============================================================
+
+# ------------------------------------------------------------
+# OBSIDIAN — Local workspace state (never commit)
+# ------------------------------------------------------------
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/.cache
+
+# Obsidian config files that ARE safe to commit (shared settings):
+# .obsidian/app.json          ← keep (core app settings)
+# .obsidian/appearance.json   ← keep (theme settings)
+# .obsidian/core-plugins.json ← keep (plugin list)
+# .obsidian/graph.json        ← keep (graph view settings)
+
+# ------------------------------------------------------------
+# PRIVATE / PERSONAL NOTES — Never push
+# ------------------------------------------------------------
+
+# PRIVATE_ONLY command center files
+00-command-center/clf-c02-june-17-study-plan.md
+11-public-exports/interview-talking-points.md
+
+# PRIVATE_ONLY PM artifacts
+08-projects/mortgage-rate-intelligence/pm/retrospective.md
+
+# ------------------------------------------------------------
+# SOURCE_LOCKED / COPYRIGHTED CONTENT
+# ------------------------------------------------------------
+
+# Verbatim Coursera/course clippings
+Clippings/
+
+# Raw unprocessed source inbox (may contain copyrighted material)
+10-sources/00-inbox/
+
+# Raw source summaries (review before committing)
+10-sources/source-summaries/
+
+# ------------------------------------------------------------
+# LEGACY / SUPERSEDED FILES
+# ------------------------------------------------------------
+
+# Original file at root — superseded by 08-projects/strands-agents-starter-lab.md
+Strands Agents Starter Lab.md
+
+# ------------------------------------------------------------
+# SYSTEM / ENVIRONMENT FILES
+# ------------------------------------------------------------
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows download artifacts
+*.crdownload
+*.tmp
+*.temp
+
+# Editor and IDE files
+.vscode/
+*.swp
+*.swo
+
+# Python / R / Node environments (if any scripts are added later)
+.env
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+.Rhistory
+.RData
+.Rproj.user/
+node_modules/
+
+# Jupyter notebooks (if added later) — keep .ipynb but exclude checkpoints
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------
+# CREDENTIALS AND SECRETS (belt-and-suspenders)
+# ------------------------------------------------------------
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.md
+credentials.md
+api-keys.md
+.secrets
+
+# ------------------------------------------------------------
+# LARGE BINARY FILES (not suitable for Git)
+# ------------------------------------------------------------
+*.xlsx
+*.xls
+*.pdf
+*.docx
+*.pptx
+*.zip
+*.tar.gz
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mp3
+
+# Exception: allow small images if explicitly needed
+# !assets/logo.png
+
+# ------------------------------------------------------------
+# KIRO LOCAL STATE (steering files are safe to commit)
+# ------------------------------------------------------------
+# .kiro/steering/ is intentionally committed — it contains
+# agent operating instructions that should travel with the repo.
+# No exclusions needed for .kiro/ at this time.
