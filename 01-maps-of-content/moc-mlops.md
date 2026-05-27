@@ -167,9 +167,47 @@ This knowledge layer approaches MLOps as **production systems engineering for ma
 
 ---
 
+## KodeKloud 100 Days of MLOps — Integration Layer
+
+### Program Overview
+The KodeKloud 100 Days of MLOps program provides the operational practice layer for
+this knowledge system. Tools covered: DVC, MLflow, Feast, Kubernetes, Argo Workflows,
+Evidently — real infrastructure, not simulations.
+
+### Four-Layer Knowledge Flow
+```
+KodeKloud (practice) → Databricks (journal) → Obsidian (evergreen) → GitHub (portfolio)
+```
+
+### Process Documentation
+- [[mlops-documentation-pipeline]] — end-to-end workflow diagram (Mermaid)
+- [[kodekloud-to-evergreen-conversion]] — when daily tasks become durable notes
+- [[naming-conventions]] — cross-system naming alignment
+- [[github-repo-structure]] — portfolio repo architecture
+
+### Templates
+- [[databricks-daily-journal-template]] — structured daily notebook
+- [[databricks-weekly-recap-template]] — weekly synthesis notebook
+
+### Anticipated Evergreen Notes from 100 Days
+| Week Range | Domain | Expected Notes |
+|---|---|---|
+| 1-2 | Containers & Environments | docker-layer-caching, container-registries |
+| 3-4 | Data Versioning & Tracking | dvc-data-versioning, experiment-tracking |
+| 5-6 | Model Management | mlflow-model-registry, model-serving-patterns |
+| 7-8 | Feature Engineering | feature-store-patterns, feature-freshness |
+| 9-10 | Orchestration | kubeflow-pipelines, argo-workflows |
+| 11-12 | Monitoring & Observability | model-drift-monitoring, observability-for-ml-systems |
+| 13-14 | CI/CD & Governance | ci-cd-for-ml, ml-governance-framework |
+| 15 | Capstone Integration | end-to-end-mlops-architecture |
+
+---
+
 ## Learning Sources
 
-- KodeKloud: Docker, Kubernetes, CI/CD courses → evergreen infrastructure notes
+- **KodeKloud 100 Days of MLOps**: Primary operational practice layer (DVC, MLflow, Feast, K8s, Argo, Evidently)
+- **KodeKloud Fundamentals of MLOps**: Conceptual foundations course
+- **KodeKloud MLOps for AIOps**: MLflow + Kubeflow deep dive
 - AWS certifications: Cloud Practitioner, AI Practitioner → service-level understanding
 - Databricks: Lakehouse architecture, MLflow → platform-specific patterns
 - Google MLOps whitepaper: Maturity levels and automation strategies
