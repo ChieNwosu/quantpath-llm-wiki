@@ -3,7 +3,7 @@
 > A personal knowledge operating system for AI/data/cloud engineering, quantitative finance, and applied machine learning.
 
 **Status**: Active learning system — work in progress
-**Visibility**: Private (under review for selective public release)
+**Visibility**: Public
 **Maintained by**: Chiemela Nwosu
 
 ---
